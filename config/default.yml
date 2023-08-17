@@ -167,6 +167,20 @@ levels:
         message: "Not all url's have been blocked. Test which ones have been missed."
     solution:
       module: true    
+
+  # Level 12
+  - name: unrestricted access to sensitive business flow
+    description: "A system with excessive access can be easily exploited"
+    uri: "/footasylum"
+    objective: "Get the system to allow you to order an excessive amount of product"
+    instructions: "The uri to the next level is located in response of this level."
+    hints:
+      - uri: "/footasylum/help"
+        message: "Try looking at the documentation and how the system is set up."
+      - uri: "/footasylum/help/extra"
+        message: "Send a POST request to edit the max order amount."
+    solution:
+      module: true  
   
   #- name: mobile_app_key
   # description: "Extract an API secret key by reverse engineering a mobile app (requires advanced tooling)"
