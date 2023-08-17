@@ -155,6 +155,18 @@ levels:
         message: "Make the API construct an SQL statement that will be true for all orders.  Don't forget to URL-encode your statement"
     solution:
       module: true
+
+  # Level 11
+  - name: server_side_request_forgery
+    description: "An unvalidated url can be used to exploit a system"
+    uri: "/profile"
+    objective: "Get the system to allow your url to be posted"
+    instructions: "The uri to the next level is located in response of this level."
+    hints:
+      - uri: "/profile/help"
+        message: "Not all url's have been blocked. Test which ones have been missed."
+    solution:
+      module: true    
   
   #- name: mobile_app_key
   # description: "Extract an API secret key by reverse engineering a mobile app (requires advanced tooling)"
