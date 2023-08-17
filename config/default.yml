@@ -39,7 +39,7 @@ levels:
       uri: "/funnybadger/invoices"
       response: "congratulations, you have made it to the next level!"
       lessons:
-        - "A5:2017 - Broken Access Control"
+        - "A01:2021 - Broken Access Control"
         - "RESTful APIs use easy to guess resource names and URIs"
         - "Don’t rely on lack of documentation for privacy"
 
@@ -62,7 +62,7 @@ levels:
       uri: "/sanityblanket"
       response: "congratulations, you have made it to the next level!"
       lessons:
-        - "OWASP A3:2017 - Sensitive Data Exposure"
+        - "OWASP A2:2021 - Cryptographic Failures"
         - "Responses may contain dangerous information"
         - "Servers and intermediaries may inject dangerous metadata"
         - "Send metadata only when necessary"
