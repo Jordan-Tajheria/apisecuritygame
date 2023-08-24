@@ -174,6 +174,7 @@ levels:
     uri: "/footasylum"
     objective: "Get the system to allow you to order an excessive amount of product"
     instructions: "The uri to the next level is located in response of this level."
+    docs: "docs/footasylum.html"
     hints:
       - uri: "/footasylum/help"
         message: "Try looking at the documentation and how the system is set up."
