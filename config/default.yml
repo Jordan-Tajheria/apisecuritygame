@@ -122,7 +122,7 @@ levels:
     description: "an incremental access token that can be easily guessed"
     uri: "/tractorguitar"
     obejctive: "Bypass access control to retrieve a protected resource."
-    instructions: "A protected resource is located at /tractorguitar/secret."
+    instructions: "A protected resource is located at /tractorguitar/secret"
     docs: "/docs/tractorguitar.html"
     hints: 
       - uri: "/tractorguitar/hint"
@@ -159,12 +159,13 @@ levels:
   # Level 11
   - name: server_side_request_forgery
     description: "An unvalidated url can be used to exploit a system"
-    uri: "/profile"
+    uri: "/profilepicture"
     objective: "Get the system to allow your url to be posted"
     instructions: "The uri to the next level is located in response of this level."
+    docs: "/docs/profilepicture.html"
     hints:
-      - uri: "/profile/help"
-        message: "Not all url's have been blocked. Test which ones have been missed."
+      - uri: "/profilepicture/help"
+        message: "Look at the documentation and see how you can alter the allowed list of URLs."
     solution:
       module: true    
 
@@ -174,7 +175,7 @@ levels:
     uri: "/footasylum"
     objective: "Get the system to allow you to order an excessive amount of product"
     instructions: "The uri to the next level is located in response of this level."
-    docs: "docs/footasylum.html"
+    docs: "/docs/footasylum.html"
     hints:
       - uri: "/footasylum/help"
         message: "Try looking at the documentation and how the system is set up."
