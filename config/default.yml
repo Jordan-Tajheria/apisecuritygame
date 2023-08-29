@@ -172,14 +172,14 @@ levels:
   # Level 12
   - name: sensitive_business_flow
     description: "A system with excessive access can be easily exploited"
-    uri: "/footasylum"
+    uri: "/onlineshopping"
     objective: "Get the system to allow you to order an excessive amount of product"
     instructions: "The uri to the next level is located in response of this level."
-    docs: "/docs/footasylum.html"
+    docs: "/docs/onlineshopping.html"
     hints:
-      - uri: "/footasylum/help"
+      - uri: "/onlineshopping/help"
         message: "Try looking at the documentation and how the system is set up."
-      - uri: "/footasylum/extra"
+      - uri: "/onlineshopping/extra"
         message: "Send a POST request to edit the max order amount."
     solution:
       module: true  
