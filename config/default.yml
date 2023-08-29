@@ -173,7 +173,7 @@ levels:
   - name: sensitive_business_flow
     description: "A system with excessive access can be easily exploited"
     uri: "/onlineshopping"
-    objective: "Get the system to allow you to order an excessive amount of product"
+    objective: "Get the system to allow you to order an excessive amount of product through a POST request"
     instructions: "The uri to the next level is located in response of this level."
     docs: "/docs/onlineshopping.html"
     hints:
